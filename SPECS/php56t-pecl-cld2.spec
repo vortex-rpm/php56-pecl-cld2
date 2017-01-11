@@ -91,5 +91,5 @@ fi
 
 
 %changelog
-* Wed 11 Jan 2017 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.1git20170111-0.vortex
+* Wed Jan 11 2017 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.1git20170111-0.vortex
 - Initial packaging
