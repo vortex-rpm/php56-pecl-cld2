@@ -45,7 +45,7 @@ over 80 languages in Unicode UTF-8 text.
 %build
 cd %{pecl_name}-%{version}
 phpize
-%configure
+%configure --with-cld2=libcld2
 %{__make} %{?_smp_mflags}
 
 
