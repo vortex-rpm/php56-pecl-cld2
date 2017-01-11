@@ -21,7 +21,7 @@ URL: http://pecl.php.net/package/%{pecl_name}
 Source: http://pecl.php.net/get/%{pecl_name}-%{version}.tgz
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
-BuildRequires: %{php_base}-devel, %{php_base}-cli, %{php_base}-pear, librabbitmq041-devel
+BuildRequires: %{php_base}-devel, %{php_base}-cli, %{php_base}-pear, libcld2
 Requires(post): %{__pecl}
 Requires(postun): %{__pecl}
 Requires: libcld2
