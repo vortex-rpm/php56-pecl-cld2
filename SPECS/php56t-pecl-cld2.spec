@@ -11,7 +11,7 @@
 
 Summary: Compact Language Detector 2 PHP Extension
 Name: %{php_base}-pecl-%{pecl_name}
-Version: 0.1-git20170111
+Version: 0.1git20170111
 Release: 0.vortex%{?dist}
 License: PHP
 Group: Development/Languages
@@ -91,5 +91,5 @@ fi
 
 
 %changelog
-* Wed 11 Jan 2017 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.1-git20170111-0.vortex
+* Wed 11 Jan 2017 Ilya Otyutskiy <ilya.otyutskiy@icloud.com> - 0.1git20170111-0.vortex
 - Initial packaging
